@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="40dp"
+
+    android:orientation="vertical"
+    tools:context="com.example.oways.quizintents.question1">
+
+    <TextView
+        android:id="@+id/ques_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ques_1"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/opt_B"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/ques_1_optB" />
+
+        <RadioButton
+            android:id="@+id/opt_A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ques_1_optA" />
+
+        <RadioButton
+            android:id="@+id/opt_C"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ques_1_optC" />
+
+        <RadioButton
+            android:id="@+id/opt_D"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ques_1_optD" />
+
+    </RadioGroup>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextQuestion"
+            android:layout_alignParentRight="true"
+            android:text="Next" />
+    </RelativeLayout>
+
+
+</LinearLayout>

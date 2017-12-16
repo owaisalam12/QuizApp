@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="ques_1">What do you mean by JRE?</string>
+    <string name="ques_2">Java is developed by</string>
+    <string name="ques_3">An object could be</string>
+    <string name="ques_4">A class cannot be declared</string>
+    <string name="ques_5">Which of the following is not keyword in java?</string>
+
+    <string name="ques_1_optA">java runtime environment</string>
+    <string name="ques_1_optB">java runtime exception</string>
+    <string name="ques_1_optC">java runtime execution</string>
+    <string name="ques_1_optD">none of these</string>
+
+    <string name="ques_2_optA">Microsoft</string>
+    <string name="ques_2_optB">Oracle</string>
+    <string name="ques_2_optC">Sun</string>
+    <string name="ques_2_optD">Google</string>
+
+    <string name="ques_3_optA">Anything</string>
+    <string name="ques_3_optB">An algorithm</string>
+    <string name="ques_3_optC">A data container</string>
+    <string name="ques_3_optD">A program</string>
+
+    <string name="ques_4_optA">Static</string>
+    <string name="ques_4_optB">Private</string>
+    <string name="ques_4_optC">Default</string>
+    <string name="ques_4_optD">Public</string>
+
+    <string name="ques_5_optA">null</string>
+    <string name="ques_5_optB">import</string>
+    <string name="ques_5_optC">volatile</string>
+    <string name="ques_5_optD">package</string>
+
+</resources>
